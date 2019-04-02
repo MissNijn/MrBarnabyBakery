@@ -8,6 +8,29 @@ body {
 	/*/cursor: url("./Images/iconfinder_cake_20_61156.png"), default;/*/
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(219, 116, 55);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(110, 58, 27,0.75);
+}
+
+
 .header {
 	text-align: center;
 	background: rgb(110, 58, 27,0.75);
