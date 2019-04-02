@@ -1,0 +1,18 @@
+
+#contact {
+  color:#6E3A1B;
+}
+.ref_email {
+ font-weight: bold;
+}
+.intro {
+  text-align: justify;
+}
+.container {
+  	font-family: 'Tajawal', sans-serif;
+    font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 600px) {
+	.container {font-size: 1.1rem};
+}

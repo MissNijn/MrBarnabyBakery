@@ -1,0 +1,270 @@
+#img_cake {
+   border:5px solid rgb(219, 116, 55, 1) !important;
+}
+.text_cake{
+	color: #379EDB
+}
+a.text_cake:hover {
+	color: rgb(219, 116, 55, 1);
+    text-decoration: none !important;
+}
+.text_cake{
+	font-weight: bold; !important;
+	align-content: center; !important;
+	font-size: 1.5rem;
+}
+
+
+/* hover images */
+/* lemon */
+.text-hover-lem {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text-hover-lem {
+  background-color: rgb(219, 116, 55, 1);
+  color: #6E3A1B;
+  font-size: 18px;
+  padding: 13px 50px;
+  text-align: justify !important;
+  white-space: nowrap;
+  text-decoration: none !important;
+}
+.hover-lem:hover .image-lem{
+  opacity: 0.5;
+}
+.hover-lem:hover .text-hover-lem{
+  opacity: 1;
+}
+.text-hover-lem:hover {
+  color: #379EDB;
+}
+/* Carrot */
+.text-hover-car {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text-hover-car {
+  background-color: rgb(219, 116, 55, 1);
+  color: #6E3A1B;
+  font-size: 18px;
+  padding: 13px 60px;
+  text-align: justify !important;
+  white-space: nowrap;
+  text-decoration: none !important;
+}
+.hover-car:hover  .image-car{
+  opacity: 0.5;
+}
+.hover-car:hover  .text-hover-car{
+  opacity: 1;
+}
+.text-hover-car:hover {
+  color: #379EDB;
+}
+/* Cheesecake */
+.text-hover-cheese {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text-hover-cheese {
+  background-color: rgb(219, 116, 55, 1);
+  color: #6E3A1B;
+  font-size: 18px;
+  padding: 13px 48px;
+  text-align: justify !important;
+  white-space: nowrap;
+  text-decoration: none !important;
+}
+.hover-cheese:hover  .image-cheese{
+  opacity: 0.5;
+}
+.hover-cheese:hover  .text-hover-cheese{
+  opacity: 1;
+}
+.text-hover-cheese:hover {
+  color: #379EDB;
+}
+/* Brownie */
+.text-hover-bro {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text-hover-bro  {
+  background-color: rgb(219, 116, 55, 1);
+  color: #6E3A1B;
+  font-size: 18px;
+  padding: 13px 32px;
+  text-align: justify !important;
+  white-space: nowrap;
+  text-decoration: none !important;
+}
+.hover-bro:hover .image-bro {
+  opacity: 0.5;
+}
+.hover-bro:hover .text-hover-bro {
+  opacity: 1;
+}
+.text-hover-bro:hover {
+  color: #379EDB;
+}
+/* summer fruit */
+.text-hover-fruit {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text-hover-fruit {
+  background-color: rgb(219, 116, 55, 1);
+  color: #6E3A1B;
+  font-size: 18px;
+  padding: 13px 53px;
+  text-align: justify !important;
+  white-space: nowrap;
+  text-decoration: none !important;
+}
+.hover-fruit:hover .image-fruit {
+  opacity: 0.5;
+}
+.hover-fruit:hover  .text-hover-fruit{
+  opacity: 1;
+}
+.text-hover-fruit:hover {
+  color: #379EDB;
+}
+/* tiramisu */
+.text-hover-tir {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text-hover-tir {
+  background-color: rgb(219, 116, 55, 1);
+  color: #6E3A1B;
+  font-size: 18px;
+  padding: 13px 40px;
+  text-align: justify !important;
+  white-space: nowrap;
+  text-decoration: none !important;
+}
+.hover-tir:hover .image-tir {
+  opacity: 0.5;
+}
+.hover-tir:hover .text-hover-tir {
+  opacity: 1;
+}
+.text-hover-tir:hover {
+  color: #379EDB;
+}
+/* bakewell */
+.text-hover-bake {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text-hover-bake {
+  background-color: rgb(219, 116, 55, 1);
+  color: #6E3A1B;
+  font-size: 18px;
+  padding: 13px 72px;
+  text-align: justify !important;
+  white-space: nowrap;
+  text-decoration: none !important;
+}
+.hover-bake:hover .image-bake {
+  opacity: 0.5;
+}
+.hover-bake:hover .text-hover-bake {
+  opacity: 1;
+}
+.text-hover-bake:hover {
+  color: #379EDB;
+}
+/*  Apple */
+.text-hover-apple {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text-hover-apple {
+  background-color: rgb(219, 116, 55, 1);
+  color: #6E3A1B;
+  font-size: 18px;
+  padding: 13px 69px;
+  text-align: justify !important;
+  white-space: nowrap;
+  text-decoration: none !important;
+}
+.hover-apple:hover .image-apple {
+  opacity: 0.5;
+}
+.hover-apple:hover .text-hover-apple {
+  opacity: 1;
+}
+.text-hover-apple:hover {
+  color: #379EDB;
+}
+/* vegan */
+.text-hover-veg {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text-hover-veg {
+  background-color: rgb(219, 116, 55, 1);
+  color: #6E3A1B;
+  font-size: 18px;
+  padding: 13px 17px;
+  text-align: justify !important;
+  white-space: nowrap;
+  text-decoration: none !important;
+}
+.hover-veg:hover .image-veg {
+  opacity: 0.5;
+}
+.hover-veg:hover .text-hover-veg {
+  opacity: 1;
+}
+.text-hover-veg:hover {
+  color: #379EDB;
+}

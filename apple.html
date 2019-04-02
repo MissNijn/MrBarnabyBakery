@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- css files -->
+	<link rel="stylesheet" type="text/css" href="./css/home.css">
+	<link rel="stylesheet" type="text/css" href="./css/titlebakes.css">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- favicon -->
+	<link rel="shortcut icon" href="Cake.ico">
+	<!-- Title -->
+	<title>Mr Barnaby's Bakery</title>
+	<!-- fonts  -->
+	<link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+<body>
+
+<!--NAVBAR-->
+	<div class="header">
+		<div class="container">
+			<div class='row'>
+				<div class='col-md-7'>
+					<br>
+					<br>
+					<h1 class="welcome">Mr Barnaby's Bakery</h1>
+					<p class="subtitle">Making people smile</p>
+				</div>
+				<div class='col-md-5'>
+					<a href="home.html"><img src='./Images/About/MrBarn3000.png' id="Teddy" class="img-responsive" alt="Mr Barnaby" height=200px></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="resnavbar">
+		<div class="topnav container-fluid" id="navbar">
+			<a href="javascript:void(0);" class="icon" onclick="myFunct()">
+				<i class="fa fa-bars"></i>
+			</a>
+
+			<a class="navbar-item" href="contact.html">Get in Touch</a>
+			<a class="navbar-item" href="order.html">Order</a>
+			<a class="active" href="bakes.html">Bakes</a>
+			<a class="navbar-item" href="about.html">Our Story</a>
+			<a class="navbar-item" href="home.html">Home</a>
+			<a class="navbar-brand" href="index.html"><img src="./Images/iconfinder_cake_20_61156.png" alt="Slice of Cake" height="30" width="30">Mr Barnaby's Bakery</a>
+	</div>
+</div>
+<!--END NAV-->
+
+<!--LEMON DRIZZLE-->
+<div class="content">
+	<div class="rel1">
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6">
+			<p class="text-center" id=title_cake>
+				Apple Pie
+			</p>
+		</div>
+		<div class="col-sm-6">
+			<p class="text-center"> </p>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6">
+			<p class="text-center">
+				<img src="./Images/Bakes/675/appeltaart.png" alt="Apple Pie"  id="img_cake">
+			</p>
+		</div>
+		<div class="col-sm-6" id=text_cake>
+			<p>
+				This Dutch variant of an apple pie is one my personal favourite cakes. The filling is made from apples, raisins and cinnamon. The pastry has a lovely texture and flavour. Made with Grandma's recipe, this cake cannot be any better!
+ 			</p>
+			<p id=allergies>
+				Allergies
+			</p>
+			<p>
+				<ul>
+					<li>Contains gluten</li>
+					<li>Contains lactose</li>
+					<li>Nut free</li>
+					<li>Suitable for vegetarians</li>
+					<li>Unsuitable for vegans</li>
+				</ul>
+				Please <a class="ref_contact" href="contact.html">contact</a> us when there are any questions related to any food allergies.
+			</p>
+			<p>
+				Please fill in the <a class="ref_contact" href="order.html">order form</a> to order your cake. <a class="price">Price £5</a>
+			</p>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+<!-- navbar responsive -->
+<script>
+function myFunct() {
+  var x = document.getElementById("navbar");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<!-- navbar extend -->
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

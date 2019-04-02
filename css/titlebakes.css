@@ -1,0 +1,57 @@
+#img_cake {
+   border:5px solid rgb(219, 116, 55, 1) !important;
+   width: 95%;
+}
+#title_cake{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #379EDB;
+}
+
+#text_cake {
+  font-size: 1.25rem;
+  text-align: justify;
+  color: #6E3A1B;
+}
+
+#allergies {
+  font-size: 1.25rem;
+  text-align: left;
+  font-weight: bold;
+  color: #379EDB;
+}
+a.ref_contact:hover {
+	color: #379EDB;
+  text-decoration: none !important;
+}
+.ref_contact{
+  font-weight: bold;
+}
+a.ref_contact {
+  color: #6E3A1B;
+}
+.price {
+	color: #379EDB !important;
+  font-weight: bold; 
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 600px) {
+	#text_cake {font-size: 1rem};
+}
+@media only screen and (max-width: 600px) {
+	#title_cake {font-size: 1.25rem};
+}
+@media only screen and (max-width: 600px) {
+  #allergies {font-size: 1rem};
+}
+
+@media only screen and (max-width: 922px) {
+	#text_cake {font-size: 1.12rem};
+}
+@media only screen and (max-width: 922px) {
+	#title_cake {font-size: 1.5rem};
+}
+@media only screen and (max-width: 922px) {
+  #allergies {font-size: 1.12rem};
+}

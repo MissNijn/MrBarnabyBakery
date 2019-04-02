@@ -1,0 +1,86 @@
+/* Set a style for the submit button */
+
+h2 {
+  	font-family: 'Tajawal', sans-serif;
+  	font-size: 2.5rem;
+    color: #6E3A1B;
+    text-align: center;
+    font-weight: bold;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.icon {
+  padding: 10px;
+  background: rgb(219, 116, 55, 1);
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-family: 'Tajawal', sans-serif;
+}
+.input-field:focus {
+  border: 2px solid rgb(219, 116, 55, 1);
+}
+.btn {
+  background-color: rgb(219, 116, 55, 1) !important;
+  color: white !important;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 75%;
+  opacity: 0.75;
+  font-size: 1.5rem !important;
+}
+.btn:hover {
+  opacity: 1;
+}
+.orderform {
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+	background: rgb(110, 58, 27,0.75);
+    padding: 20px;
+	font-family: 'Tajawal', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    width: 50%
+}
+input[type=text], select, textarea {
+    width: 75%;
+    padding: 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 1.5rem;
+    color: #69ACCC;
+    font-family: 'Tajawal', sans-serif;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 600px) {
+	.orderform {font-size: 1rem};
+}
+@media only screen and (max-width: 600px) {
+	.btn {font-size: 1rem !important};
+}
+@media only screen and (max-width: 600px) {
+	.input[type=text], select, textarea {font-size: 1rem};
+}
+@media only screen and (max-width: 600px) {
+	.input-field {font-size: 1rem !important};
+}
+@media only screen and (max-width: 600px) {
+	h2 {font-size: 1.75rem !important};
+}
+
+@media only screen and (max-width: 922px) {
+	.orderform {width: 85%};
+}
